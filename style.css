@@ -1,0 +1,259 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f6fc;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+}
+
+p {
+    text-align: center;
+}
+
+.alert {
+    text-align: center;
+}
+
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eef2f7;
+}
+
+.register-box {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.register-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #1cc88a;
+    border-color: #1cc88a;
+}
+
+.btn-primary:hover {
+    background-color: #17a673;
+    border-color: #17a673;
+}
+
+p {
+    text-align: center;
+}
+
+.alert {
+    text-align: center;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 700px;
+}
+.card {
+    border-radius: 12px;
+    border: none;
+}
+.card-body {
+    padding: 20px;
+}
+
+body {
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding-top: 40px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h2.text-primary {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 0.5rem 1.3rem;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    box-shadow: 0 0 8px rgba(200, 35, 51, 0.6);
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 0 8px rgba(33, 136, 56, 0.6);
+}
+
+.btn-secondary:hover {
+    background-color: #6c757d;
+    box-shadow: 0 0 8px rgba(108, 117, 125, 0.6);
+}
+
+#taskList li.list-group-item {
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+#taskList li.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.badge {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.4em 0.75em;
+    border-radius: 15px;
+}
+
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.modal-header {
+    border-bottom: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+input.form-control {
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1.5px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+@media (max-width: 576px) {
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.4rem 1rem;
+    }
+
+    h2.text-primary {
+        font-size: 2rem;
+    }
+}
+
+.page-title {
+    font-size: 2.75rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700; /* bold */
+    text-align: center;
+    margin-bottom: 1.5rem; /* mb-4 */
+  }
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #c82333 !important;
+  border-color: #bd2130 !important;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #5a6268 !important;
+  border-color: #545b62 !important;
+}
+
+
+.action-button {
+    min-width: 160px;
+    text-align: center;
+    padding: 0.6rem 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+  }
+  
+
+  .action-button {
+    min-width: 160px;
+    text-align: center;
+    padding: 0.6rem 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+    font-size: 0.95rem;
+  }
+  
+  .action-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .btn-primary-custom {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-primary-custom:hover {
+    background-color: #005fcc;
+  }
+  
